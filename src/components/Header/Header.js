@@ -1,6 +1,7 @@
 import React from "react";
 import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements";
-import Resume from "../../data/Resume.pdf"
+import Resume from "../../data/Resume_Ajinkya_Jadhav_intern_FullStackDev.pdf"
+import logos_white from "../../assets/Images/Ajinkya Jadhav-logos_white.png"
 
 const Header = ({ toggle }) => {
   return (
@@ -8,7 +9,7 @@ const Header = ({ toggle }) => {
       <Nav>
         <Logo to="/">
           <img
-            src="/Ajinkya Jadhav-logos_white.png"
+            src={logos_white}
             alt="logo"
           />
         </Logo>
@@ -27,7 +28,7 @@ const Header = ({ toggle }) => {
         <a
           className="btn PrimaryBtn"
           href={Resume}
-          download="Resume-PDF-document"
+          download="Resume-Ajinkya-Jadhav-FullStack-Dev-PDF-document"
           target="_blank"
           rel="noreferrer"
         >

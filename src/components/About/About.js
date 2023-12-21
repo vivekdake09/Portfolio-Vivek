@@ -1,5 +1,6 @@
 import React from "react";
 import { stackList } from "../../data/ProjectData";
+import man from "../../assets/Images/man-svgrepo-com.svg"
 import {
   Image,
   Technologies,
@@ -17,7 +18,7 @@ function About() {
         <div className="BigCard">
         <ScrollAnimation animateIn="fadeInLeft">
           <Image
-            src="/man-svgrepo-com.svg"
+            src={man}
             alt="man-svgrepo"
           />
         </ScrollAnimation>

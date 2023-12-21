@@ -2,7 +2,7 @@ import React from "react";
 import { FaTimes } from "react-icons/fa";
 import styled from "@emotion/styled";
 import { Link as ScrollLink } from "react-scroll";
-import Resume from '../../data/Resume.pdf'
+import Resume from '../../data/Resume_Ajinkya_Jadhav_intern_FullStackDev.pdf'
 
 
 const SiderBar = styled.div`
@@ -89,7 +89,7 @@ function Dropdown({ isOpen, toggle }) {
       <a
           className="btn PrimaryBtn"
           href={Resume}
-          download="Resume-PDF-document"
+          download="Resume-Ajinkya-Jadhav-FullStack-Dev-PDF-document"
           target="_blank"
           rel="noreferrer"
         >

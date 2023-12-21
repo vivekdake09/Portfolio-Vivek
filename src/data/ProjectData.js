@@ -1,14 +1,30 @@
+//import React from "react";
+import VTG from '../assets/Images/Tourguide-1.jpg'
+import CB from '../assets/Images/ChatBOT.jpg'
+
 // --------------------------------------- Project List
 export const ProjectList = [
   {
-    img: "",
-    title: "No Complete Projects",
+    img: CB,
+    title: "ChatBot",
     description:
-      "Plz visit again later to view projects",
-    tech_stack: [],
+      "demonstrates a sophisticated conversational system that excels in understanding and responding to user queries with natural language understanding and accuracy.",
+    tech_stack: ["NLTK","Flask"],
+    github_url: "https://github.com/Ajjack4/ChatBot_UI",
+    demo_url: "",
+
+
+  },
+  {
+    img: VTG,
+    title: "Virtual Travel Guide",
+    description:
+      "empowers users to effortlessly choose their ideal traveldestinations. It provides a user-friendly interface for exploring popular spots, offering a seamless and personalized travel planning experience",
+    tech_stack: ["React","Node.js","Express.js","Google Map API","MongoDB"],
     github_url: "",
     demo_url: "",
-  },
+  }
+  
   
 ];
 

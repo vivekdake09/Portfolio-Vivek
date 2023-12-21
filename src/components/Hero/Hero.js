@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Dropdown from "../Dropdown/Dropdown";
 import Header from "../Header/Header";
+import man from "../../assets/Images/man-svgrepo-com.svg"
+import scroll from "../../assets/Images/scroll-down.svg"
 import {
   HeroContainer,
   HeroWrapper,
@@ -94,7 +96,7 @@ function Hero() {
           <HeroRight>
             <ScrollAnimation animateIn="fadeIn">
               <Image
-                src="/man-svgrepo-com.svg"
+                src={man}
                 alt="man-svgrepo"
               />
             </ScrollAnimation>
@@ -105,7 +107,7 @@ function Hero() {
           <ScrollLink>
             Scroll down
             <img
-              src="/scroll-down.svg"
+              src={scroll}
               alt="scroll-down"
             />
           </ScrollLink>

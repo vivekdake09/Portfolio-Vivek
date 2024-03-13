@@ -1,9 +1,20 @@
 //import React from "react";
 import VTG from '../assets/Images/Tourguide-1.jpg'
 import CB from '../assets/Images/ChatBOT.jpg'
-
+import MA from '../assets/Images/Messaging-app-sc.png'
 // --------------------------------------- Project List
 export const ProjectList = [
+  {
+    
+    img: MA,
+    title: "Messaging App",
+    description:
+      "Stay connected with real-time active status indicators, ensuring instant communication at your fingertips",
+    tech_stack: ["React","Node.js","Express.js","Socket.io","JWT","MongoDB"],
+    github_url: "https://github.com/Ajjack4/Ajjack_Messaging",
+    demo_url: "https://ajjack-messaging.onrender.com/login",
+  
+},
   {
     img: CB,
     title: "ChatBot",

@@ -1,6 +1,6 @@
 import React from "react";
 import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements";
-import Resume from "../../data/Resume_Ajinkya_Jadhav_intern_FullStackDev.pdf"
+import Resume from "../../data/Resume_13_Ajinkya_Jadhav_FullStack.pdf"
 import logos_white from "../../assets/Images/Ajinkya Jadhav-logos_white.png"
 
 const Header = ({ toggle }) => {

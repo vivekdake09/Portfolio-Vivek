@@ -2,7 +2,7 @@ import React from "react";
 import { FaTimes } from "react-icons/fa";
 import styled from "@emotion/styled";
 import { Link as ScrollLink } from "react-scroll";
-import Resume from '../../data/Resume_Ajinkya_Jadhav_intern_FullStackDev.pdf'
+import Resume from '../../data/Resume_13_Ajinkya_Jadhav_FullStack.pdf'
 
 
 const SiderBar = styled.div`

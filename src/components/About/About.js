@@ -24,7 +24,7 @@ function About() {
         </ScrollAnimation>
           <div className="AboutBio">
             <ScrollAnimation animateIn="fadeInLeft">
-            Hello, I'm <strong> Ajinkya Jadhav </strong>, a driven software engineering student eager to embark on an exciting journey in the tech industry. Currently pursuing my Computer Science Degree at Pune University, I am passionate about crafting innovative solutions through code.
+            Hello, I'm <strong>Vivek Dake </strong>, a driven software engineering student eager to embark on an exciting journey in the tech industry. Currently pursuing my Computer Science Degree at Pune University, I am passionate about crafting innovative solutions through code.
             </ScrollAnimation>
 
             <br /><br />
